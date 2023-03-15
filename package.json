@@ -6,7 +6,9 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "cy:open": "npx cypress open --component --browser chrome",
+    "cy:run": "npx cypress run --component --browser chrome --headed --no-exit"
   },
   "private": true,
   "dependencies": {

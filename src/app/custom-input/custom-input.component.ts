@@ -7,7 +7,7 @@ import { Component, ViewEncapsulation } from '@angular/core';
   encapsulation: ViewEncapsulation.None
 })
 export class CustomInputComponent {
-  static nextID = 0;
+  private static nextID = 0;
   nativeID = CustomInputComponent.nextID++;
   
   value = '';
