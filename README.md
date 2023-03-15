@@ -1,23 +1,31 @@
-# AngularCypress
+## AngularCypress
 
-This is a demonstration of a behavioral difference on Angular component mounting between `cypress open` and `cypress run` scripts.
+This is a demonstration of a behavioral difference of Angular component mounting between `cypress open` and `cypress run` scripts.
 
-## Setup
+### Setup
 
-`npm install`
+```
+npm install
+```
 
-## Run
+### Run
 
-`npm run serve`
+```
+npm run serve
+```
 
-## Cypress Tests
+### Cypress Tests
 
 By default, headed Chrome browser is used on both scripts for demonstration purposes. Feel free to change the default browser in [package.json](./package.json).
 
-### With `cypress open`:
+#### With `cypress open`:
 
-`npm run cy:open`
+```
+npm run cy:open
+```
 
-### With `cypress run`:
+#### With `cypress run`:
 
-`npm run cy:run`
+```
+npm run cy:run
+```
